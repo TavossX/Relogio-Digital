@@ -33,7 +33,6 @@ body::before{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
     padding-bottom: 2rem;
 }
 
@@ -42,7 +41,8 @@ body::before{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 40px;
 }
 
 .data{
@@ -58,15 +58,15 @@ body::before{
 }
 
 #dia-da-semana{
-    font-size: 60px;
+    font-size: 70px;
 }
 
 #data{
-    font-size: 60px;
+    font-size: 70px;
 }
 
 #mes{
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .relogio{
@@ -75,7 +75,7 @@ body::before{
     justify-content: center;
     height: 110px;
     width: 300px;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     padding-right: 2rem;
 }
 
@@ -88,7 +88,7 @@ body::before{
 
 .relogio span{
     font-weight: bolder;
-    font-size: 90px;
+    font-size: 110px;
 }
 
 .relogio span.tempo{
