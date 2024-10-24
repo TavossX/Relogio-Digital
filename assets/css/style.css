@@ -19,6 +19,14 @@ body{
     background-attachment: fixed;
 }
 
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body::before{
     content: "";
     position: fixed;
@@ -97,4 +105,39 @@ body::before{
 #segundos{
     padding-top: 10px;
     font-size: 45px;
+}
+
+@media screen and (max-width: 1100px){
+    #dia-da-semana{
+        font-size: 35px;
+    }
+
+    #data{
+        font-size: 35px;
+    }
+
+    #mes{
+        font-size: 35px;
+    }
+
+    .relogio span{
+        font-size: 50px;
+    }
+
+    #segundos{
+        font-size: 35px;
+    }
+
+    .dia{
+        padding-left: 92px;
+        padding-top: 25px;
+    }
+
+    .c-dia{
+        gap: 10px;
+    }
+
+    .relogio{
+        padding-bottom: 45px;
+    }
 }
